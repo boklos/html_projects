@@ -1,0 +1,72 @@
+body {
+	background: black url(background.jpg) no-repeat top center;
+	font-family: arial;
+}
+
+a{
+	color:white;
+	text-decoration: none;
+}
+
+canvas{
+	background: black;
+	border:1px #cccccc solid;
+}
+
+.container {
+	margin: 30px auto 0 auto;
+	width: 600px;
+	overflow: clear;
+	position: relative;
+
+}
+
+#stats{
+	background: #333333;
+	margin-bottom: 5px;
+	width: 590px;
+	padding: 5px;
+	overflow: auto;
+	font-size:20px;
+	font-weight:bold;
+	color:#ffffff;
+}
+
+.score{
+	background: black;
+	height:50px;
+	width:25%;
+	margin-right: 5px;
+	padding-top: 20px;
+	float:left;
+	overflow: auto;
+}
+
+
+#reset_score {
+	text-align: center;
+	float: right;
+	padding: 10px;
+	margin: 15px 80px auto auto;
+}
+
+#overlay{
+	display: none;
+	color:#ffffff;
+	font-size:25px;
+	text-align:center;
+	position:absolute;
+	top:170px;
+	left:180px;
+}
+
+#overlay a {
+	display:block;
+	margin-top:10px;
+	padding:10px;
+	background:#666666;
+}
+
+#overlay a:hover{
+	background:#333333;
+}
